@@ -1,0 +1,161 @@
+body {
+	color: #fb5;
+	background-color: #334;
+}
+img{
+	position: relative;
+}
+
+a:link {
+	color: #445;
+	background-color: #eb6;
+}
+
+a:visited {
+	color: #345;
+	background-color: #eb6;
+}
+
+a:hover {
+	color: #667;
+	background-color: #fb5;
+}
+
+a:active {
+	color: #778;
+	background-color: #ec8;
+}
+
+#header {
+	color: #ec8;
+	background-color: #334;
+	border-color: #667;
+}
+
+#navigation {
+	color: #455;
+	background-color: #789;
+	border-color: #667;
+}
+
+
+#navigation ul {
+	border-color: #99a;
+}
+
+#navigation a:link,#navigation a:visited {
+	color: #eef;
+	background-color: transparent;
+	border-color: #99a;
+}
+
+#navigation a:hover {
+	color: #445;
+	background-color: #eb6;
+}
+
+#navigation a:active {
+	color: #667;
+	background-color: #ec8;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 1em 10%;
+	max-width: 80em;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	background-position: top left;
+}
+
+#header {
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	border-width: .1em;
+	border-bottom-width: 0;
+
+}
+
+#navigation ul {
+	width: 100%;
+	overflow: hidden;
+	border-left-width: .1em;
+	border-left-style: solid;
+}
+
+#navigation li {
+	display: inline;
+}
+
+#navigation li a {
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	border-right: .1em solid;
+}
+
+#content {
+	border-width: .1em;
+	border-top-width: 0;
+	padding: 2em ;
+	line-height: 1.8em;
+}
+
+#navigation a.here:link,
+#navigation a.here:visited,
+#navigation a.here:hover,
+#navigation a.here:active {
+	color: #eef;
+	background-color: #799;}
+
+th {
+	color: #edc;
+	background-color: #455;
+
+}
+tr td {
+	color: #223;
+	background-color: #eb6;
+	font-size: 1.5em;
+}
+#imagegallery li {
+	display: inline;
+}
+
+dl {
+	overflow: hidden;
+}
+dt {
+	float: left;
+	margin-right: 1em;
+}
+dd {
+	float: left;
+	margin-right: 3em;
+}
+td {
+	padding: 1em 5em;
+}
+#floatright #header {
+	width: 970px;
+	height: 400px;
+}
+tr.odd td {
+	color: #223;
+	background-color: #ec8;
+}
+tr.highlight td {
+	color: #223;
+	background-color: #cba;
+}
+label {
+	display: block;
+}
+fieldset {
+	border: 0;
+}
+

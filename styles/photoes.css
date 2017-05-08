@@ -1,0 +1,26 @@
+#imagegallery li img {
+	width: 235px;
+	height: 159px;
+	position: center;
+
+}
+#placeholder {
+	height: 242px;
+	width: 470px;
+	font-size: 27px;
+	border-color: blue;
+	position: center;
+
+}
+#description {
+	font-size:20px;
+	}
+#placeholder {
+	display:inline;
+	position: relative;
+	margin: 0px 243px;
+}
+#floatright #header{
+	width: 967px;
+	height: 400px;
+}

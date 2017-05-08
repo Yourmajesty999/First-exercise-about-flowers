@@ -1,0 +1,28 @@
+
+
+
+#live #header {
+	background-image: url(../photoes/zhiwu.jpg);
+	background-image: 250px 250px;
+}
+#contact #header {
+	background-image: url(../photoes/yulan.jpg);
+	background-image: 250px 250px;
+}
+
+
+#slideshow {
+	width: 200px;
+	height: 180px;
+	position: relative;
+	overflow: hidden;
+}
+
+#frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	border-radius: 5px;
+}
+

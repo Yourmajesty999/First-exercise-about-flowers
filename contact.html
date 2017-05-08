@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Flowers</title>
+	<link rel="stylesheet" type="text/css" href="styles/basic.css">
+<!--	<script type="text/javascript" src="scripts/global.js"></script> 
+-->
+	<script type="text/javascript" src="scripts/contact.js"></script>
+</head>
+<body>
+	<h2>There are a lot of beautiful flowers in this web page, because I find them from internet and make them to be a part of my web. I hope all of you like them too.  </h2>
+	<div id="floatright">	
+		<img src="photoes/rose.jpg" alt="Beautiful Flowers" id="header"/>
+		<div id="navigation">
+			<ul>
+				<li><a href="index.html" class="here">Home</a> </li>
+				<li><a href="about.html" class="here">About</a> </li>
+				<li><a href="photoes.html" class="here">Photoes</a> </li>
+				<li><a href="live.html" class="here">Live</a> </li>
+				<li><a href="contact.html" class="here">Contact</a> </li>
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+		<h1>Contact the holder who know more flowers</h1>
+		<form method="post" action="#">
+			<fieldset>
+				<p>
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" value="Your name" class="required" />
+				</p>
+				<p>
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email" value="Your email address" class="email required" />
+				</p>
+				<p>
+					<label for="message">Message:</label>
+					<textarea cols="45" rows="7" id="message" name="message" class="required">Write your message here.</textarea>
+				</p>
+				<input type="submit" name="send" value="Send" />
+			</fieldset>
+		</form>
+	
+	</div>
+</body>
+</html>
